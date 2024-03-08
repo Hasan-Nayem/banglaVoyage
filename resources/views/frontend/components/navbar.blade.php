@@ -678,7 +678,7 @@
                         </a>
                     </span>
                     <span class="navbar-caption-wrap">
-                        <a class="navbar-caption text-black display-4" href="https://mobiri.se">BanglaVoyage</a>
+                        <a class="navbar-caption text-black display-4" href="{{ route('homepage') }}">BanglaVoyage</a>
                     </span>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse"
@@ -697,11 +697,11 @@
                             <a class="nav-link link text-black display-4" href="#gallery-16-u6lgzwIWnx">Explore</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link text-black display-4" href="#events-1-u6lgzwH7NQ"
+                            <a class="nav-link link text-black display-4" href="{{ route('event.show') }}"
                                 aria-expanded="false">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link text-black display-4" href="#">Pricing</a>
+                            <a class="nav-link link text-black display-4" href="{{ route('profile') }}">Profile</a>
                         </li>
                     </ul>
                     <div class="navbar-buttons mbr-section-btn">

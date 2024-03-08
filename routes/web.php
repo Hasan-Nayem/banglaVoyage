@@ -36,7 +36,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('homepage');
+Route::get('/profile', [HomeController::class, 'profile'])->name('profile');
 Route::get('/events', [HomeController::class, 'events'])->name('event.show');
 Route::get('/event-details', [HomeController::class, 'eventDetails'])->name('event.details');
+Route::get('/event-book', [HomeController::class, 'eventBook'])->name('event.book');
 
 require __DIR__.'/auth.php';

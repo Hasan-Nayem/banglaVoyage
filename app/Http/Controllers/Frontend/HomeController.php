@@ -16,6 +16,14 @@ class HomeController extends Controller
     }
 
     /**
+     * Display a homepage.
+     */
+    public function profile()
+    {
+        return view('frontend.pages.profile.profile');
+    }
+
+    /**
      * Show all event.
      */
     public function events()
@@ -29,6 +37,14 @@ class HomeController extends Controller
     public function eventDetails()
     {
         return view('frontend.pages.event.eventDetails');
+    }
+
+    /**
+     * Show selected event.
+     */
+    public function eventBook()
+    {
+        return view('frontend.pages.event.eventBook');
     }
 
     /**
