@@ -705,7 +705,7 @@
                         </li>
                     </ul>
                     <div class="navbar-buttons mbr-section-btn">
-                        <a class="btn btn-primary display-4" href="">Join Now</a>
+                        <a class="btn btn-primary display-4" href="{{ route('login') }}">Join Now</a>
                     </div>
                 </div>
             </div>

@@ -41,4 +41,11 @@ Route::get('/events', [HomeController::class, 'events'])->name('event.show');
 Route::get('/event-details', [HomeController::class, 'eventDetails'])->name('event.details');
 Route::get('/event-book', [HomeController::class, 'eventBook'])->name('event.book');
 
+Route::get('/user-login', function(){
+    return view('frontend.pages.login');
+});
+Route::get('/user-register', function(){
+    return view('frontend.pages.registration');
+});
+
 require __DIR__.'/auth.php';

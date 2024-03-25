@@ -16,7 +16,7 @@ class HomeController extends Controller
     }
 
     /**
-     * Display a homepage.
+     * Display users profile.
      */
     public function profile()
     {
